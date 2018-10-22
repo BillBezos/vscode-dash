@@ -32,7 +32,8 @@
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "commands": [{
+    "commands": [
+      {
         "command": "extension.dash.specific",
         "title": "Search in Dash for current selection"
       },
@@ -49,7 +50,8 @@
         "title": "Search in Dash for a custom string"
       }
     ],
-    "keybindings": [{
+    "keybindings": [
+      {
         "command": "extension.dash.specific",
         "key": "ctrl+h",
         "mac": "ctrl+h",
